@@ -5,6 +5,7 @@ html {
   color: #222;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: black;
 }
 
 *,
@@ -16,6 +17,7 @@ html {
 body {
   margin: 0 auto;
   max-width: 48em;
+  background-color: white;
 }
 
 img {
@@ -30,7 +32,7 @@ header {
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
-  background-color: black;
+  background-color: #1e7c74;
 }
 
 header strong,
@@ -158,4 +160,14 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
+  background-color: #1e7c74;
+}
+
+p {
+  margin: 0;
+  text-indent: 1rem;
+}
+
+div[role="main"] {
+  padding: 0 1rem;
 }
